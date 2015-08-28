@@ -14,7 +14,7 @@ mv .emacs.d .emacs.d~
 ln -s dotfiles/.emacs.d .
 ```
 
-See also http://github.com/startup-class/setup to install prerequisite
+See also http://github.com/jjsuarez/setup to install prerequisite
 programs. If all goes well, in addition to a more useful prompt, now you can
 do `emacs -nw hello.js` and hitting `C-c!` to launch an interactive SSJS
 REPL, among many other features. See the
