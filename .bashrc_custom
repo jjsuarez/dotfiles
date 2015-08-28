@@ -1,1 +1,2 @@
-
+alias lf="ls -lrth --color"
+alias laf="ls -Alrth --color"
