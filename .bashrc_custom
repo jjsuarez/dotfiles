@@ -1,2 +1,6 @@
 alias lf="ls -lrth --color"
 alias laf="ls -Alrth --color"
+PS1="\[\033[0;34m\][\u@\h:\w]$\[\033[0m\]" ##Blue, compinche
+#PS1="\[\033[0;33m\][\u1@\h:\w]$\[\033[0m\]" ##Yellow, ubuntu1
+#PS1="\[\033[0;32m\][\u2@\h:\w]$\[\033[0m\]" ##Green, ubuntu2
+#PS1="\[\033[0;31m\][\u@\h:\w]$\[\033[0m\]" ##Red
