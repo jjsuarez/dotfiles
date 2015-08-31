@@ -20,5 +20,7 @@ do `emacs -nw hello.js` and hitting `C-c!` to launch an interactive SSJS
 REPL, among many other features. See the
 [Startup Engineering Video Lectures 4a/4b](https://class.coursera.org/startup-001/lecture/index)
 for more details.
-
-Updated by jjsuarez AUG 2015
+##Updated by jjsuarez AUG 2015:
+Re-organized the .emacs.d folder to include a sub-folder .emacs.d/lisp and added all the .el files into
+it. Also changed the load-path from .emacs.d/ to emacs.d/lisp folder in the file init.el. This avoids
+warnings of possible collisions of custom-made .el files and .el files generated bey emacs itself.

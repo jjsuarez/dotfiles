@@ -4,7 +4,7 @@
 ;; ---------------------
 ;; -- Global Settings --
 ;; ---------------------
-(add-to-list 'load-path "~/.emacs.d")
+(add-to-list 'load-path "~/.emacs.d/lisp")
 (require 'cl)
 (require 'ido)
 (require 'ffap)
@@ -18,7 +18,7 @@
 (require 'compile)
 (ido-mode t)
 (menu-bar-mode -1)
-(normal-erase-is-backspace-mode 1)
+(normal-erase-is-backspace-mode 0)
 (put 'downcase-region 'disabled nil)
 (put 'upcase-region 'disabled nil)
 (setq column-number-mode t)
@@ -70,7 +70,7 @@
 ;; -- JS Mode configuration --
 ;; ---------------------------
 (load "js-config.el")
-(add-to-list 'load-path "~/.emacs.d/jade-mode") ;; github.com/brianc/jade-mode
+(add-to-list 'load-path "~/.emacs.d/lisp/jade-mode") ;; github.com/brianc/jade-mode
 (require 'sws-mode)
 (require 'jade-mode)    
 (add-to-list 'auto-mode-alist '("\\.styl$" . sws-mode))
